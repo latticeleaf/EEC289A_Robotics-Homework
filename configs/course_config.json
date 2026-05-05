@@ -64,7 +64,7 @@
   },
   "stage_2": {
     "name": "stage_2",
-    "num_timesteps": 5000000,
+    "num_timesteps": 8000000,
     "command_range": {
       "min": [
         0.0,
