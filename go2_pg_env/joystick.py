@@ -550,14 +550,14 @@ class Joystick(go2_base.Go2Env):
         return self._cmd_min, self._cmd_max, self._cmd_b
 
     def _student_stage2_sampling_profile(self, current_command: jax.Array) -> tuple[jax.Array, jax.Array, jax.Array]:
-    del current_command
-    # Gradually widen from baseline toward goal using alpha interpolation
-    alpha = 0.8
-    cmd_min = self._cmd_min + alpha * (self._student_stage2_goal_min - self._cmd_min)
-    cmd_max = self._cmd_max + alpha * (self._student_stage2_goal_max - self._cmd_max)
-    # Increase vy and yaw keep_prob to encourage more lateral/turning practice
-    cmd_b = jp.array([1.0, 0.6, 0.5])
-    return cmd_min, cmd_max, cmd_b
+        del current_command
+        # Gradually widen from baseline toward goal using alpha interpolation
+        alpha = 0.8
+        cmd_min = self._cmd_min + alpha * (self._student_stage2_goal_min - self._cmd_min)
+        cmd_max = self._cmd_max + alpha * (self._student_stage2_goal_max - self._cmd_max)
+        # Increase vy and yaw keep_prob to encourage more lateral/turning practice
+        cmd_b = jp.array([1.0, 0.6, 0.5])
+        return cmd_min, cmd_max, cmd_b
     
     def sample_command(self, rng: jax.Array, current_command: jax.Array) -> jax.Array:
         rng, y_rng, w_rng, z_rng = jax.random.split(rng, 4)
