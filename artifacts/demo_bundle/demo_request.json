@@ -1,0 +1,6 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_baseline/best_checkpoint",
+  "stage_name": "stage_2",
+  "render_steps": 0,
+  "force_cpu": false
+}
