@@ -6,32 +6,32 @@
   "checkpoint_dir": "/content/go2_course_repo/artifacts/run_baseline/best_checkpoint",
   "num_steps": 2250,
   "metrics": {
-    "velocity_tracking_error": 0.15157237648963928,
-    "yaw_tracking_error": 0.16020265221595764,
+    "velocity_tracking_error": 0.15177036821842194,
+    "yaw_tracking_error": 0.1549781709909439,
     "fall_rate": 0.0,
-    "energy_proxy": 8.163896560668945,
-    "foot_slip_proxy": 0.07378730922937393
+    "energy_proxy": 9.053354263305664,
+    "foot_slip_proxy": 0.07502229511737823
   },
   "normalized_scores": {
-    "velocity_tracking_error": 0.852650352886745,
-    "yaw_tracking_error": 0.8494933694601059,
+    "velocity_tracking_error": 0.8520846622330802,
+    "yaw_tracking_error": 0.8625545725226402,
     "fall_rate": 1.0,
-    "energy_proxy": 0.9948782324790955,
-    "foot_slip_proxy": 0.701181615392367
+    "energy_proxy": 0.967082679271698,
+    "foot_slip_proxy": 0.694320582681232
   },
-  "course_composite_score": 0.8876761938134828,
+  "course_composite_score": 0.885235006444984,
   "rollout_summary": {
     "video_path": "/content/go2_course_repo/artifacts/demo_bundle/demo.mp4",
     "rollout_npz": "/content/go2_course_repo/artifacts/demo_bundle/rollout_public_eval.npz",
     "num_steps_simulated": 2250,
     "terminated_early": false,
     "done_step": null,
-    "x_distance_m": -2.665374755859375,
-    "y_offset_m": -0.6121251583099365,
-    "final_base_height_m": 0.3396070599555969,
+    "x_distance_m": -2.611762046813965,
+    "y_offset_m": -0.8324600458145142,
+    "final_base_height_m": 0.3447355628013611,
     "mean_command_vx": 0.06666666269302368,
-    "mean_measured_vx": 0.060741253197193146,
-    "mean_abs_yaw_error": 0.16020265221595764,
+    "mean_measured_vx": 0.06072288751602173,
+    "mean_abs_yaw_error": 0.1549781709909439,
     "demo_segments": [
       [
         0.0,

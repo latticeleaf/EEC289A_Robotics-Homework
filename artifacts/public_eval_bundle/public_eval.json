@@ -5,51 +5,51 @@
   "num_steps": 6000,
   "num_episodes": 4,
   "metrics": {
-    "velocity_tracking_error": 0.08029620349407196,
-    "yaw_tracking_error": 0.09522587060928345,
+    "velocity_tracking_error": 0.0792732760310173,
+    "yaw_tracking_error": 0.09720735996961594,
     "fall_rate": 0.0,
-    "energy_proxy": 3.596261978149414,
-    "foot_slip_proxy": 0.025489937514066696
+    "energy_proxy": 4.004953861236572,
+    "foot_slip_proxy": 0.02664918266236782
   },
   "normalized_scores": {
     "velocity_tracking_error": 1.0,
     "yaw_tracking_error": 1.0,
     "fall_rate": 1.0,
     "energy_proxy": 1.0,
-    "foot_slip_proxy": 0.9695003471440738
+    "foot_slip_proxy": 0.9630600963201787
   },
-  "course_composite_score": 0.9969500347144074,
+  "course_composite_score": 0.9963060096320179,
   "per_episode_summary": [
     {
       "episode_id": 0,
       "episode_label": "forward_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.08218726515769958,
-      "yaw_tracking_error": 0.04451172798871994,
+      "velocity_tracking_error": 0.07929535955190659,
+      "yaw_tracking_error": 0.051709599792957306,
       "fell": false
     },
     {
       "episode_id": 1,
       "episode_label": "lateral_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.06473665684461594,
-      "yaw_tracking_error": 0.04101589694619179,
+      "velocity_tracking_error": 0.06446138769388199,
+      "yaw_tracking_error": 0.04610829800367355,
       "fell": false
     },
     {
       "episode_id": 2,
       "episode_label": "yaw_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.01628570258617401,
-      "yaw_tracking_error": 0.180882528424263,
+      "velocity_tracking_error": 0.01553416159003973,
+      "yaw_tracking_error": 0.17892928421497345,
       "fell": false
     },
     {
       "episode_id": 3,
       "episode_label": "combined",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.1579752117395401,
-      "yaw_tracking_error": 0.11449334770441055,
+      "velocity_tracking_error": 0.15780220925807953,
+      "yaw_tracking_error": 0.11208223551511765,
       "fell": false
     }
   ]
