@@ -46,14 +46,14 @@
     "name": "stage_2",
     "num_timesteps": 40000000,
     "command_range": {
-      "min": [-0.6, -0.2, -0.6],
-      "max": [0.6, 0.2, 0.6]
+      "min": [-0.8, -0.4, -0.8],
+      "max": [0.8, 0.4, 0.8]
     },
-    "command_keep_prob": [1.0, 0.6, 0.5],
+    "command_keep_prob": [1.0, 0.7, 0.6],
     "student_stage2_goal": {
       "command_range": {
         "min": [-0.8, -0.4, -0.8],
-        "max": [0.8, 0.5, 0.6]
+        "max": [0.8, 0.4, 0.8]
       },
       "command_keep_prob": [1.0, 0.70, 0.6]
     },
