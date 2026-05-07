@@ -556,7 +556,7 @@ class Joystick(go2_base.Go2Env):
         cmd_min = self._cmd_min + alpha * (self._student_stage2_goal_min - self._cmd_min)
         cmd_max = self._cmd_max + alpha * (self._student_stage2_goal_max - self._cmd_max)
         # Increase vy and yaw keep_prob to encourage more lateral/turning practice
-        cmd_b = jp.array([1.0, 0.6, 0.5])
+        cmd_b = jp.array([1.0, 0.7, 0.6])
         return cmd_min, cmd_max, cmd_b
     
     def sample_command(self, rng: jax.Array, current_command: jax.Array) -> jax.Array:
