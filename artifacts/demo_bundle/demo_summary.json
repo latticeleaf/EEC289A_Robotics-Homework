@@ -1,15 +1,15 @@
 {
   "video_path": "/content/go2_course_repo/artifacts/demo_bundle/demo.mp4",
   "rollout_npz": "/content/go2_course_repo/artifacts/demo_bundle/rollout_public_eval.npz",
-  "num_steps_simulated": 2250,
+  "num_steps_simulated": 2500,
   "terminated_early": false,
   "done_step": null,
-  "x_distance_m": -2.611762046813965,
-  "y_offset_m": -0.8324600458145142,
-  "final_base_height_m": 0.3447355628013611,
-  "mean_command_vx": 0.06666666269302368,
-  "mean_measured_vx": 0.06072288751602173,
-  "mean_abs_yaw_error": 0.1549781709909439,
+  "x_distance_m": -2.6248574256896973,
+  "y_offset_m": -2.8523926734924316,
+  "final_base_height_m": 0.35226893424987793,
+  "mean_command_vx": 0.14000000059604645,
+  "mean_measured_vx": 0.13146191835403442,
+  "mean_abs_yaw_error": 0.06471763551235199,
   "demo_segments": [
     [
       0.0,
@@ -22,7 +22,12 @@
       0.0
     ],
     [
-      -0.4,
+      0.8,
+      0.0,
+      0.0
+    ],
+    [
+      -0.6,
       0.0,
       0.0
     ],
@@ -39,17 +44,17 @@
     [
       0.0,
       0.0,
-      0.5
+      0.6
     ],
     [
       0.0,
       0.0,
-      -0.5
+      -0.6
     ],
     [
-      0.4,
-      0.1,
-      0.3
+      0.6,
+      0.2,
+      0.6
     ],
     [
       0.0,

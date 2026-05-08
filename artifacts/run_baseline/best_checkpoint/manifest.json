@@ -1,8 +1,8 @@
 {
   "selection_method": "best_eval_reward",
   "selected_step": 13107200,
-  "selected_eval_reward": 27.67959976196289,
+  "selected_eval_reward": 27.769031524658203,
   "source_checkpoint_dir": "/content/go2_course_repo/artifacts/run_baseline/stage_2/checkpoints/000013107200",
   "exported_checkpoint_dir": "/content/go2_course_repo/artifacts/run_baseline/best_checkpoint",
-  "exported_at_unix": 1777966989.7736318
+  "exported_at_unix": 1778206597.7855625
 }

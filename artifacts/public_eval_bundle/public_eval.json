@@ -5,51 +5,51 @@
   "num_steps": 6000,
   "num_episodes": 4,
   "metrics": {
-    "velocity_tracking_error": 0.0792732760310173,
-    "yaw_tracking_error": 0.09720735996961594,
+    "velocity_tracking_error": 0.05522330850362778,
+    "yaw_tracking_error": 0.06001448631286621,
     "fall_rate": 0.0,
-    "energy_proxy": 4.004953861236572,
-    "foot_slip_proxy": 0.02664918266236782
+    "energy_proxy": 6.403197288513184,
+    "foot_slip_proxy": 0.06120853126049042
   },
   "normalized_scores": {
     "velocity_tracking_error": 1.0,
     "yaw_tracking_error": 1.0,
     "fall_rate": 1.0,
     "energy_proxy": 1.0,
-    "foot_slip_proxy": 0.9630600963201787
+    "foot_slip_proxy": 0.7710637152194977
   },
-  "course_composite_score": 0.9963060096320179,
+  "course_composite_score": 0.9771063715219498,
   "per_episode_summary": [
     {
       "episode_id": 0,
       "episode_label": "forward_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.07929535955190659,
-      "yaw_tracking_error": 0.051709599792957306,
+      "velocity_tracking_error": 0.08092416077852249,
+      "yaw_tracking_error": 0.0438447967171669,
       "fell": false
     },
     {
       "episode_id": 1,
       "episode_label": "lateral_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.06446138769388199,
-      "yaw_tracking_error": 0.04610829800367355,
+      "velocity_tracking_error": 0.06378106027841568,
+      "yaw_tracking_error": 0.04030080884695053,
       "fell": false
     },
     {
       "episode_id": 2,
       "episode_label": "yaw_only",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.01553416159003973,
-      "yaw_tracking_error": 0.17892928421497345,
+      "velocity_tracking_error": 0.021623779088258743,
+      "yaw_tracking_error": 0.10680028051137924,
       "fell": false
     },
     {
       "episode_id": 3,
       "episode_label": "combined",
       "num_steps": 1500,
-      "velocity_tracking_error": 0.15780220925807953,
-      "yaw_tracking_error": 0.11208223551511765,
+      "velocity_tracking_error": 0.054564218968153,
+      "yaw_tracking_error": 0.04911205172538757,
       "fell": false
     }
   ]

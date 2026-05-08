@@ -11,34 +11,34 @@
     "command_config": {
       "b": [
         1.0,
-        0.0,
-        0.0
+        0.4,
+        0.3
       ],
       "max": [
-        1.0,
-        0.0,
-        0.0
+        0.4,
+        0.1,
+        0.4
       ],
       "min": [
-        0.0,
-        0.0,
-        0.0
+        -0.4,
+        -0.1,
+        -0.4
       ],
       "stage_name": "stage_2",
       "student_stage2_goal_b": [
         1.0,
-        0.35,
-        0.35
-      ],
-      "student_stage2_goal_max": [
-        0.6,
-        0.2,
+        0.7,
         0.6
       ],
+      "student_stage2_goal_max": [
+        0.8,
+        0.4,
+        0.8
+      ],
       "student_stage2_goal_min": [
-        -0.6,
-        -0.2,
-        -0.6
+        -0.8,
+        -0.4,
+        -0.8
       ]
     },
     "ctrl_dt": 0.02,
@@ -125,7 +125,7 @@
     "num_evals": 5,
     "num_minibatches": 32,
     "num_resets_per_eval": 10,
-    "num_timesteps": 8000000,
+    "num_timesteps": 40000000,
     "num_updates_per_batch": 4,
     "reward_scaling": 1.0,
     "unroll_length": 20
