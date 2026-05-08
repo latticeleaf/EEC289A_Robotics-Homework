@@ -1,0 +1,92 @@
+{
+  "checkpoint_dir": "/content/go2_course_repo/artifacts/run_baseline/best_checkpoint",
+  "num_episodes": 10,
+  "episode_length_seconds": 10.0,
+  "aggregate": {
+    "mean_velocity_tracking_error": 0.06533872503787279,
+    "mean_yaw_tracking_error": 0.05965776828756789,
+    "fall_rate": 0.0
+  },
+  "per_episode": [
+    {
+      "episode_id": 0,
+      "label": "forward_slow",
+      "velocity_tracking_error": 0.04881337657570839,
+      "yaw_tracking_error": 0.04549894999869866,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 1,
+      "label": "forward_medium",
+      "velocity_tracking_error": 0.05699466913938522,
+      "yaw_tracking_error": 0.04629301373372437,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 2,
+      "label": "forward_fast",
+      "velocity_tracking_error": 0.0659075602889061,
+      "yaw_tracking_error": 0.04932545684627257,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 3,
+      "label": "backward",
+      "velocity_tracking_error": 0.13656646013259888,
+      "yaw_tracking_error": 0.054562555060780144,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 4,
+      "label": "lateral_left",
+      "velocity_tracking_error": 0.0962267741560936,
+      "yaw_tracking_error": 0.039588677895604635,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 5,
+      "label": "lateral_right",
+      "velocity_tracking_error": 0.0965033546090126,
+      "yaw_tracking_error": 0.038574802321149036,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 6,
+      "label": "yaw_left_slow",
+      "velocity_tracking_error": 0.025987159460783005,
+      "yaw_tracking_error": 0.10556356603460154,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 7,
+      "label": "yaw_left_fast",
+      "velocity_tracking_error": 0.030979065224528313,
+      "yaw_tracking_error": 0.07693849928493728,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 8,
+      "label": "yaw_right",
+      "velocity_tracking_error": 0.03447125852108002,
+      "yaw_tracking_error": 0.09003685145487543,
+      "fell": false,
+      "num_steps": 500
+    },
+    {
+      "episode_id": 9,
+      "label": "combined",
+      "velocity_tracking_error": 0.06093757227063179,
+      "yaw_tracking_error": 0.050195310245035214,
+      "fell": false,
+      "num_steps": 500
+    }
+  ]
+}
